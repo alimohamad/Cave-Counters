@@ -1,0 +1,62 @@
+body{
+
+    text-align: center;
+}
+
+.active-counters{
+    
+    list-style-type: none;    
+}
+
+.active-counters li{
+    
+    display: inline-grid; 
+    width: 10%;
+    padding: 2%;
+    
+}
+
+.thumbnail{
+    
+    border-width: 4px;
+}
+
+#countdown{
+    
+    margin-top: 5%;
+}
+
+#countdown h1{
+    
+    font-size: 400px;
+}
+
+#new-counter{
+    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 5%;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    box-shadow: none;
+    font-size: 200%;
+    
+}
+
+#back-button{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 1%;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: white;
+    color: dodgerblue;
+    box-shadow: none;
+    font-size: 100%;
+}

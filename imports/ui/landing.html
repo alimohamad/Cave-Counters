@@ -1,0 +1,27 @@
+<template name = "landing">
+
+    <h1>Welcome to Cave Counters!</h1>
+    <h2>Here are some active counters:</h2>
+    
+     <ul class="active-counters">
+         {{#each activeCounters}}
+        
+         <li>
+        
+             <a href="{{pathFor route = 'counter'}}" class = "counter-nav">
+                 <div class="counter">
+                     <div class="thumbnail">
+                         <h2>{{this.daysSince}}</h2>
+                     </div>    
+                     <h3>Days Since {{this.tag}}</h3>
+                 </div>
+             </a>
+            
+         </li>
+    
+         {{/each}}
+    </ul>
+
+
+
+</template>
