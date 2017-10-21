@@ -3,16 +3,39 @@ body{
     text-align: center;
 }
 
+
+h1, h2, h3, h4, h5, a, button{
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header{
+    
+    margin: 5%;
+    
+}
+
 .active-counters{
     
-    list-style-type: none;    
+    list-style-type: none;
+    text-align: left;
 }
 
 .active-counters li{
     
-    display: inline-grid; 
+    display: inline-block; 
     width: 10%;
-    padding: 2%;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+
+}
+
+.active-counters li a{
+    
+    color: black;
     
 }
 
@@ -29,6 +52,12 @@ body{
 #countdown h1{
     
     font-size: 400px;
+}
+
+.modal-title{
+    
+    text-transform: uppercase;
+    
 }
 
 #new-counter{
@@ -59,4 +88,24 @@ body{
     color: dodgerblue;
     box-shadow: none;
     font-size: 100%;
+}
+
+#submit-counter{
+    
+    background-color: white;
+    color: black;
+    border: 4px solid black;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 2.5%;
+    height: 50px;
+    width: 137.5px;
+    
+}
+
+#submit-counter:hover{
+    
+    background-color: black; /* Green */
+    color: white;
+    
 }
